@@ -1,6 +1,6 @@
 # VS Code ESP32 JTAG Debug - Example Project #
 ## Notes ##
-This guide assumes you have setup the esp-idf environment in Windows and can currently run `make flash monitor` and other commands succesfully. [Start with the ESP setup guide if not](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#setup-toolchain)
+This guide assumes you have setup the esp-idf environment in Windows and can currently run `make flash monitor` and other commands succesfully. [Start with the ESP setup guide if not.](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#setup-toolchain)
 
 There are other existing setup guides but this serves as an example project where you can step-by-step debug inside VSCode with one-click and with minimal setup.
 
@@ -9,13 +9,13 @@ The example project is the default blink example, the only things added is the S
 ## Setup ##
 ---
 
-1. [Download openocd](dhttps://github.com/espressif/openocd-esp32/releases) and extract in the "C:\esp" folder alongside the esp-idf.
+1. [Download openocd](https://github.com/espressif/openocd-esp32/releases) and extract in the "C:\esp" folder alongside the esp-idf.
 
-![Folder](Images/ESP_Folder.jpg "Directory")
+![Folder](Images/ESP_Folder.JPG "Directory")
 
 2. Install the [native-debug extension](https://marketplace.visualstudio.com/items?itemName=webfreak.debug) and also the official C/C++ extension for VS Code.
 
-![Ext](Images/Extensions.jpg "Extensions")
+![Ext](Images/Extensions.JPG "Extensions")
 
 3. Setup of drivers if necessary. See WROVER setup below if needed.
 
@@ -23,12 +23,12 @@ The example project is the default blink example, the only things added is the S
 
 4. Run `make flash` or `make flash monitor` (You can use Ctrl+J to bring up the integrated terminal)
 
-![VSCode](Images/VSCode.jpg "Integrated Terminal")
+![VSCode](Images/VSCode.JPG "Integrated Terminal")
 
 5. `Launch Program` in the debug menu when complete. An error like popup may appear click debug anyway.
 
-![Debug Popup](Images/Debug_Popup.jpg "Debugging Task")
-![Debug](Images/Debugging.jpg "Debugging")
+![Debug Popup](Images/Debug_Popup.JPG "Debugging Task")
+![Debug](Images/Debugging.JPG "Debugging")
 
 
 ## Files ##
