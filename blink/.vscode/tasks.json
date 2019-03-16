@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": 
+    [
+        {
+            "label": "openocd",
+            "type": "shell",
+            "isBackground": true,
+            "options": 
+            {
+                "cwd": "C:/esp/openocd-esp32"
+            },
+            "command": "bin/openocd -s share/openocd/scripts -f interface/ftdi/esp32_devkitj_v1.cfg -f board/esp32-wrover.cfg -c \"init; halt; esp32 appimage_offset 0x10000\" ",
+        },
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": 
+            [
+                "${workspaceFolder}/**",
+                "C:/esp/esp-idf/components/**",
+                "C:/msys32/opt/xtensa-esp32-elf/**"
+            ],
+            "browse": 
+            {
+                "path" : 
+                [
+                    "${workspaceFolder}/**",
+                    "C:/esp/esp-idf/components/**",
+                    "C:/msys32/opt/xtensa-esp32-elf/**"
+                ]
+            },
+            "defines": [],
+            "compilerPath": "C:/msys32/opt/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x64",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}
