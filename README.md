@@ -19,13 +19,13 @@ The example project is the default blink example, the only things added is the S
 
 3. Setup of drivers if necessary. See WROVER setup below if needed.
 
-5. Open the blink folder in VS Code and change the COM port in sdkconfig to your ESP32.
+4. Open the blink folder in VS Code and change the COM port in sdkconfig to your ESP32.
 
-4. Run `make flash` or `make flash monitor` (You can use Ctrl+J to bring up the integrated terminal)
+5. Run `make flash` or `make flash monitor` (You can use Ctrl+J to bring up the integrated terminal)
 
 ![VSCode](Images/VSCode.JPG "Integrated Terminal")
 
-5. `Launch Program` in the debug menu when complete. An error like popup may appear click debug anyway.
+6. `Launch Program` in the debug menu when complete. An error like popup may appear click debug anyway.
 
 ![Debug Popup](Images/Debug_Popup.JPG "Debugging Task")
 ![Debug](Images/Debugging.JPG "Debugging")
